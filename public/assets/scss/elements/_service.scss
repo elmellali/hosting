@@ -1,0 +1,210 @@
+// RTS SERVICE AREA
+.rts-service {
+    .rts-section__title{
+        max-width: 462px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.single__service{
+    .single__service {
+        &--box {
+            background: var(--color-white);
+            border-radius: 10px;
+            position: relative;
+            padding: 40px 23px;
+            z-index: 2;
+            transition: var(--transition);
+            border: 1px solid transparent;
+            text-align: center;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+            &:hover {
+                border: 1px solid var(--color-primary);
+                box-shadow: unset;
+                .single__service--box-button{
+                    .rts-btn{
+                        background: var(--color-primary);
+                        color: var(--color-white);
+                    }
+                }
+            }
+
+            &-icon {
+                height: 60px;
+                display: grid;
+                place-items: center;
+                margin-bottom: 30px !important;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: max-content;
+
+                img {
+                    transition: var(--transition);
+                }
+            }
+
+            &-title {
+                font-weight: var(--bold);
+                font-size: 20px;
+                color: var(--color-secondary);
+                transition: var(--transition);
+                margin-bottom: 15px;
+            }
+
+            &-description {
+                margin-bottom: 0px;
+                transition: var(--transition);
+            }
+            &-button{
+                .rts-btn{
+                    padding: 11px 25px 10px;
+                    line-height: 1;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 4px;
+                    color: var(--color-primary);
+                    background: transparent;
+                    gap: 10px;
+                    border: 1px solid var(--color-primary);
+                    max-width: max-content;
+                    margin: auto;
+                    margin-top: 35px;
+                    transition: var(--transition);
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+.service-inner{
+    ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        .service-wrapper{
+            list-style: none;
+            flex: 0 0 25%;
+            max-width: 25%;
+            padding: 30px 50px;
+            border-width: 0 1px 1px 0;
+            border-style: solid;
+            border-color: #FFD8BF;
+            @media(max-width:1200px){
+                flex: 0 0 33%;
+                max-width: 50%;
+                &:nth-child(3){
+                    border-right: 0px solid #FFD8BF !important;
+                }
+                &:nth-child(4){
+                    padding-left: 0 !important;
+                    padding-right: 20px !important;
+                    border-right: 1px solid #FFD8BF !important;
+                }
+                &:nth-child(5){
+                    padding-left: 20px !important;
+                    border-right: 1px solid #FFD8BF !important;
+                    border-bottom: 1px solid #FFD8BF !important;
+                }
+                &:nth-child(6){
+                    padding-left: 20px !important;
+                    border-right: 0px solid #FFD8BF !important;
+                    border-bottom: 1px solid #FFD8BF !important;
+                }
+                &:nth-child(7){
+                    padding-left: 0 !important;
+                }
+                &:nth-child(8){
+                    border-right: 1px solid #FFD8BF !important;
+                }
+            }
+            @media(max-width:991px){
+                flex: 0 0 50%;
+                &:nth-child(2){
+                    padding-left: 20px !important;
+                    border-right: 0px solid !important;
+                }
+                &:nth-child(3){
+                    border-right: 1px solid #FFD8BF !important;
+                    padding-left: 0 !important;
+                }
+                &:nth-child(4){
+                    padding-left: 20px !important;
+                    padding-right: 20px !important;
+                    border-right: 0 solid !important;
+                }
+                &:nth-child(5){
+                    padding-left: 0 !important;
+                    border-right: 1px solid #FFD8BF !important;
+                    border-bottom: 1px solid #FFD8BF !important;
+                }
+                &:nth-child(6){
+                    padding-left: 20px !important;
+                    border-bottom: 1px solid #FFD8BF !important;
+                }
+                &:nth-child(7){
+                    border-right: 1px solid #FFD8BF !important;
+                    padding-left: 0 !important;
+                }
+                &:nth-child(8){
+                    border-right: 0px solid #FFD8BF !important;
+                }
+            }
+            @media(max-width:768px){
+                flex: 0 0 100%;
+                max-width: 100%;
+                &:nth-child(2),
+                &:nth-child(4),
+                &:nth-child(6),
+                &:nth-child(8){
+                    padding-left: 0 !important;
+                    border-right: 0px solid !important;
+                }
+                &:nth-child(1),
+                &:nth-child(3),
+                &:nth-child(5),
+                &:nth-child(7){
+                    border-right: 0px solid !important;
+                }
+                &:nth-child(7){
+                    border-bottom: 1px solid #FFD8BF !important;
+                }
+            }
+            .icon-area{
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                margin-bottom: 15px;
+                img{
+                    height: 30px;
+                    width: 30px;
+                }
+                h6{
+                    margin-bottom: 0;
+                    color: var(--color-secondary);
+                }
+            }
+            p{
+                margin-bottom: 0;
+            }
+            &:nth-child(1),
+            &:nth-child(5){
+                padding-left: 0;
+                padding-right: 20px;
+            }
+            &:nth-child(4),
+            &:nth-child(8){
+                padding-right: 0;
+                padding-left: 20px;
+                border-right: 0px solid;
+            }
+            &:nth-child(5),
+            &:nth-child(6),
+            &:nth-child(7),
+            &:nth-child(8){
+                border-bottom: 0px solid;
+            }
+        }
+    }
+}
