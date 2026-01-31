@@ -48,7 +48,12 @@ class CartController extends Controller
 
         session()->put('cart', $cart);
 
-        return redirect()->route('cart.index')->with('success', 'Item added to cart successfully!');
+        if (!auth()->check()) {
+            session(['url.intended' => route('checkout')]);
+            return redirect()->route('register'); // Removed success message to avoid confusion on register page
+        }
+
+        return redirect()->route('checkout')->with('success', 'Item added to cart successfully!');
     }
 
     public function removeFromCart(Request $request)

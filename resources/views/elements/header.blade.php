@@ -40,10 +40,10 @@
                     <!-- FOR LOGO -->
                     <div class="rts-header__logo">
                         <a href="{{ route('index') }}" class="site-logo">
-                            <img class="logo-white" src="{{ asset('assets/images/logo/elitehost-logo.png') }}"
-                                alt="Elitehost" style="max-height: 50px;">
-                            <img class="logo-dark" src="{{ asset('assets/images/logo/elitehost-logo.png') }}"
-                                alt="Elitehost" style="max-height: 50px;">
+                            <img class="logo-white" src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}"
+                                alt="TakeItCloudy" style="max-height: 50px;">
+                            <img class="logo-dark" src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}"
+                                alt="TakeItCloudy" style="max-height: 50px;">
                         </a>
                     </div>
                     <!-- FOR NAVIGATION MENU -->

@@ -30,7 +30,7 @@
                     <div class="col-lg-5">
                         <div class="about-content-area">
                             <h2 class="section-title">About TakeItCloudy</h2>
-                            <p class="desc">Since our founding in 2011, TakeItCloudy has offered web hosting solutions that
+                            <p class="desc">Since our founding in 2025, TakeItCloudy has offered web hosting solutions that
                                 continually innovate new ways to deliver on our mission: empowering people to harness their
                                 brands online.</p>
                             <div class="about-feature-area">

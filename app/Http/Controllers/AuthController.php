@@ -53,7 +53,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect(route('index'));
+        return redirect()->intended(route('index'));
     }
 
     public function logout(Request $request)

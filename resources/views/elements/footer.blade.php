@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 rts-footer__widget--column">
                 <div class="rts-footer__widget footer__widget w-280">
                     <a href="{{ route('index') }}" aria-label="main page link" class="footer__logo">
-                        <img src="{{ asset('assets/images/logo/elitehost-logo.png') }}" alt="Elitehost"
+                        <img src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}" alt="TakeItCloudy"
                             style="max-height: 50px;">
                     </a>
                     <p class="brand-desc">3831 Montgomery Blvd NE APT 433 <br> Albuquerque, NM 87109</p>

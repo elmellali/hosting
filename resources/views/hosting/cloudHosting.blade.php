@@ -136,7 +136,14 @@
                                 <td class="storage">1 TB HDD</td>
                                 <td class="price">$167.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 4 (4GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="167.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -146,7 +153,14 @@
                                 <td class="storage">1 TB HDD</td>
                                 <td class="price">$199.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 4 (8GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="199.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -156,7 +170,14 @@
                                 <td class="storage">1 TB HDD</td>
                                 <td class="price">$299.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 8 (16GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="299.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -166,7 +187,14 @@
                                 <td class="storage">2 TB HDD</td>
                                 <td class="price">$399.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 16 (16GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="399.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -176,7 +204,14 @@
                                 <td class="storage">2 TB HDD</td>
                                 <td class="price">$499.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced 32 (32GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="499.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -186,7 +221,14 @@
                                 <td class="storage">2 TB HDD</td>
                                 <td class="price">$599.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced 64 (64GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="599.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -196,7 +238,14 @@
                                 <td class="storage">240 GB SSD</td>
                                 <td class="price">$299.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced SSD 16 (16GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="299.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -206,7 +255,14 @@
                                 <td class="storage">240 GB SSD</td>
                                 <td class="price">$399.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced SSD 64 (64GB RAM) - Monthly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="399.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                         </tbody>
@@ -234,7 +290,14 @@
                                 <td class="storage">1 TB HDD</td>
                                 <td class="price">$367.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 4 (4GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="367.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -244,7 +307,14 @@
                                 <td class="storage">1 TB HDD</td>
                                 <td class="price">$499.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 4 (8GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="499.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -254,7 +324,14 @@
                                 <td class="storage">1 TB HDD</td>
                                 <td class="price">$599.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 8 (16GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="599.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -264,7 +341,14 @@
                                 <td class="storage">2 TB HDD</td>
                                 <td class="price">$499.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 16 (16GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="499.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -274,7 +358,14 @@
                                 <td class="storage">2 TB HDD</td>
                                 <td class="price">$699.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced 32 (32GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="699.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -284,7 +375,14 @@
                                 <td class="storage">2 TB HDD</td>
                                 <td class="price">$899.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced 64 (64GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="899.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -294,7 +392,14 @@
                                 <td class="storage">240 GB SSD</td>
                                 <td class="price">$499.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced SSD 16 (16GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="499.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -304,7 +409,14 @@
                                 <td class="storage">240 GB SSD</td>
                                 <td class="price">$599.00/mo</td>
                                 <td>
-                                    <div class="btn__two primary__btn">sign up</div>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced SSD 64 (64GB RAM) - Yearly">
+                                        <input type="hidden" name="type" value="dedicated">
+                                        <input type="hidden" name="price" value="599.00">
+                                        <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
+                                    </form>
                                 </td>
                             </tr>
                         </tbody>

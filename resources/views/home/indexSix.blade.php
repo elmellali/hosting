@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="hero__banner__wrapper d-flex flex-wrap flex-lg-nowrap gap-5 gap-lg-0 
-                                                align-items-center justify-content-between px-5 px-lg-0">
+                                                    align-items-center justify-content-between px-5 px-lg-0">
 
                     <!-- banner content -->
                     <div class="hero__banner__content content-5">
@@ -445,7 +445,7 @@
         <div class="container">
             <div class="row">
                 <div class="rts-section text-center">
-                    <h2 class="rts-section__title">Here's why you'll love hosting with Elitehost</h2>
+                    <h2 class="rts-section__title">Here's why you'll love hosting with TakeItCloudy</h2>
                 </div>
             </div>
             <div class="service-inner">
