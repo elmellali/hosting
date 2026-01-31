@@ -2243,7 +2243,7 @@
     <!-- TakeItCloudy FEATURE AREA END -->
 
     <!-- HOSTING LATEST BLOG -->
-    <section class="rts-blog pt--120 pb--60">
+    {{-- <section class="rts-blog pt--120 pb--60">
         <div class="container">
             <div class="row justify-content-center justify-content-md-start">
                 <div class="col-md-12 col-sm-10">
@@ -2332,7 +2332,8 @@
             </div>
             <!-- light cta -->
         </div>
-    </section>
+    </section> --}}
+    <!-- HOSTING LATEST BLOG END -->
     <!-- HOSTING LATEST BLOG END -->
 
     <!-- SHARED HOSTING FAQ -->

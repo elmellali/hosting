@@ -22,13 +22,14 @@
                         <li><a class="mobile-menu-link" href="{{ route('about') }}">About</a></li>
                         <li><a class="mobile-menu-link" href="{{ route('faq') }}">Pricing</a></li>
                         <li><a class="mobile-menu-link" href="#">Sign Up</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('blog') }}">Blog</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('blogList') }}">Blog List</a></li>
+                        {{-- <li><a class="mobile-menu-link" href="{{ route('blog') }}">Blog</a></li> --}}
+                        {{-- <li><a class="mobile-menu-link" href="{{ route('blogList') }}">Blog List</a></li> --}}
                         <li><a class="mobile-menu-link" href="{{ route('support') }}">Support</a></li>
                         <li><a class="mobile-menu-link" href="{{ route('pricing') }}">Pricing</a></li>
                         <li><a class="mobile-menu-link" href="{{ route('signin') }}">Sign In</a></li>
                         <li><a class="mobile-menu-link" href="{{ route('knowledgebase') }}">Knowledgebase</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('blogDetails') }}">Blog Details</a></li>
+                        {{-- <li><a class="mobile-menu-link" href="{{ route('blogDetails') }}">Blog Details</a></li>
+                        --}}
                         <li><a class="mobile-menu-link" href="{{ route('domainChecker') }}">Domain Checker</a></li>
                         <li><a class="mobile-menu-link" href="{{ route('contact') }}">Contact</a></li>
                     </ul>

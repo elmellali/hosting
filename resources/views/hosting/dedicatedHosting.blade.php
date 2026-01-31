@@ -292,7 +292,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Standard 4 (4GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 4 (4GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="367.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -308,7 +309,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Standard 4 (8GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 4 (8GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="499.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -324,7 +326,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Standard 8 (16GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 8 (16GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="599.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -340,7 +343,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Standard 16 (16GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Standard 16 (16GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="499.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -356,7 +360,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Enhanced 32 (32GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced 32 (32GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="699.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -372,7 +377,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Enhanced 64 (64GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced 64 (64GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="899.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -388,7 +394,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Enhanced SSD 16 (16GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced SSD 16 (16GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="499.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -404,7 +411,8 @@
                                 <td>
                                     <form action="{{ route('cart.add') }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="domain" value="Dedicated Server - Enhanced SSD 64 (64GB RAM) - Yearly">
+                                        <input type="hidden" name="domain"
+                                            value="Dedicated Server - Enhanced SSD 64 (64GB RAM) - Yearly">
                                         <input type="hidden" name="type" value="dedicated">
                                         <input type="hidden" name="price" value="599.00">
                                         <button type="submit" class="btn__two primary__btn w-100 border-0">sign up</button>
@@ -2576,7 +2584,7 @@
     <!-- EliteHost FEATURE AREA END -->
 
     <!-- HOSTING LATEST BLOG -->
-    <section class="rts-blog pb--60">
+    {{-- <section class="rts-blog pb--60">
         <div class="container">
             <div class="row justify-content-center justify-content-md-start">
                 <div class="col-md-12 col-sm-10">
@@ -2665,7 +2673,8 @@
             </div>
             <!-- light cta -->
         </div>
-    </section>
+    </section> --}}
+    <!-- HOSTING LATEST BLOG END -->
     <!-- HOSTING LATEST BLOG END -->
 
     <!-- SHARED HOSTING FAQ -->

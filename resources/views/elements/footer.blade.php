@@ -43,7 +43,7 @@
                         <div class="rts-footer__widget--menu ">
                             <ul>
                                 <li><a href="{{ route('about') }}">About Us</a></li>
-                                <li><a href="{{ route('blog') }}">News Feed</a></li>
+                                {{-- <li><a href="{{ route('blog') }}">News Feed</a></li> --}}
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
                                 <li><a href="{{ route('signup') }}">Sign Up</a></li>
                                 <li><a href="{{ route('signin') }}">Sign In</a></li>

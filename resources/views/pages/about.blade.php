@@ -123,7 +123,7 @@
     <!-- About Us End -->
 
     <!-- TEAM AREA -->
-    <section class="rts-team-area section__padding body-bg-2">
+    {{-- <section class="rts-team-area section__padding body-bg-2">
         <div class="container">
             <div class="rts-section-title-area">
                 <h2 class="section-title">Part of our team</h2>
@@ -168,7 +168,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- TEAM AREA END -->
 
     <!-- TESTIMONIAL -->
@@ -289,7 +289,7 @@
     <!-- TESTIMONIAL END -->
 
     <!-- HOSTING LATEST BLOG -->
-    <section class="rts-blog pb--60 pt--120 body-bg-2">
+    {{-- <section class="rts-blog pb--60 pt--120 body-bg-2">
         <div class="container">
             <div class="row justify-content-center justify-content-md-start">
                 <div class="col-md-12 col-sm-10">
@@ -378,7 +378,8 @@
             </div>
             <!-- light cta -->
         </div>
-    </section>
+    </section> --}}
+    <!-- HOSTING LATEST BLOG END -->
     <!-- HOSTING LATEST BLOG END -->
 
     <!-- Elitehost FEATURE AREA -->

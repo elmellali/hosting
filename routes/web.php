@@ -70,9 +70,9 @@ Route::prefix('pages')->group(function () {
     Route::controller(PagesController::class)->group(function () {
         Route::get('page-error', 'pageError')->name('pageError');
         Route::get('about', 'about')->name('about');
-        Route::get('blog', 'blog')->name('blog');
-        Route::get('blogDetails', 'blogDetails')->name('blogDetails');
-        Route::get('blogList', 'blogList')->name('blogList');
+        // Route::get('blog', 'blog')->name('blog');
+        // Route::get('blogDetails', 'blogDetails')->name('blogDetails');
+        // Route::get('blogList', 'blogList')->name('blogList');
         Route::get('contact', 'contact')->name('contact');
         Route::get('domainChecker', 'domainChecker')->name('domainChecker');
         Route::get('knowledgebase', 'knowledgebase')->name('knowledgebase');
