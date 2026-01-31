@@ -2223,434 +2223,416 @@
                                                 src="{{ asset('assets/images/brand/01.svg') }}" alt=""></a>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/02.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/03.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/04.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/05.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/06.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"> <img
-                                                src="{{ asset('assets/images/brand/07.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/08.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/01.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- BRAND AREA END-->
+                <!-- BRAND AREA END-->
 
-    <!-- TakeItCloudy FEATURE AREA -->
-    <section class="rts-feature section__padding body-bg-2">
-        <div class="container">
-            <div class="row">
-                <div class="rts-section text-center">
-                    <h2 class="rts-section__title">Why TakeItCloudy</h2>
-                </div>
-            </div>
-            <div class="row gy-30">
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single__feature">
-                        <div class="single__feature--box">
-                            <div class="single__feature--box-icon">
-                                <img src="{{ asset('assets/images/feature/feature-01.svg') }}" alt="">
+                <!-- TakeItCloudy FEATURE AREA -->
+                <section class="rts-feature section__padding body-bg-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="rts-section text-center">
+                                <h2 class="rts-section__title">Why TakeItCloudy</h2>
                             </div>
-                            <h5 class="single__feature--box-title">
-                                Free WHM & cPanel
-                            </h5>
-                            <p class="single__feature--box-description">
-                                We guarantee it you don't have
-                                to worry about it.
-                            </p>
+                        </div>
+                        <div class="row gy-30">
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="single__feature">
+                                    <div class="single__feature--box">
+                                        <div class="single__feature--box-icon">
+                                            <img src="{{ asset('assets/images/feature/feature-01.svg') }}" alt="">
+                                        </div>
+                                        <h5 class="single__feature--box-title">
+                                            Free WHM & cPanel
+                                        </h5>
+                                        <p class="single__feature--box-description">
+                                            We guarantee it you don't have
+                                            to worry about it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="single__feature">
+                                    <div class="single__feature--box">
+                                        <div class="single__feature--box-icon">
+                                            <img src="{{ asset('assets/images/feature/feature-02.svg') }}" alt="">
+                                        </div>
+                                        <h5 class="single__feature--box-title">
+                                            Performance Optimized
+                                        </h5>
+                                        <p class="single__feature--box-description">
+                                            If your website is slow or down
+                                            then you losing customers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="single__feature">
+                                    <div class="single__feature--box">
+                                        <div class="single__feature--box-icon">
+                                            <img src="{{ asset('assets/images/feature/feature-03.svg') }}" alt="">
+                                        </div>
+                                        <h5 class="single__feature--box-title">
+                                            Super Easy to Use
+                                        </h5>
+                                        <p class="single__feature--box-description">
+                                            Our custom control panel to use
+                                            and removes the headache
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6">
+                                <div class="single__feature">
+                                    <div class="single__feature--box">
+                                        <div class="single__feature--box-icon">
+                                            <img src="{{ asset('assets/images/feature/feature-04.svg') }}" alt="">
+                                        </div>
+                                        <h5 class="single__feature--box-title">
+                                            24/7 Expert Support
+                                        </h5>
+                                        <p class="single__feature--box-description">
+                                            Our custom control panel to use
+                                            and removes the headache
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single__feature">
-                        <div class="single__feature--box">
-                            <div class="single__feature--box-icon">
-                                <img src="{{ asset('assets/images/feature/feature-02.svg') }}" alt="">
-                            </div>
-                            <h5 class="single__feature--box-title">
-                                Performance Optimized
-                            </h5>
-                            <p class="single__feature--box-description">
-                                If your website is slow or down
-                                then you losing customers.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single__feature">
-                        <div class="single__feature--box">
-                            <div class="single__feature--box-icon">
-                                <img src="{{ asset('assets/images/feature/feature-03.svg') }}" alt="">
-                            </div>
-                            <h5 class="single__feature--box-title">
-                                Super Easy to Use
-                            </h5>
-                            <p class="single__feature--box-description">
-                                Our custom control panel to use
-                                and removes the headache
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single__feature">
-                        <div class="single__feature--box">
-                            <div class="single__feature--box-icon">
-                                <img src="{{ asset('assets/images/feature/feature-04.svg') }}" alt="">
-                            </div>
-                            <h5 class="single__feature--box-title">
-                                24/7 Expert Support
-                            </h5>
-                            <p class="single__feature--box-description">
-                                Our custom control panel to use
-                                and removes the headache
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- TakeItCloudy FEATURE AREA END -->
+                </section>
+                <!-- TakeItCloudy FEATURE AREA END -->
 
-    <!-- HOSTING LATEST BLOG -->
-    {{-- <section class="rts-blog pt--120 pb--60">
-        <div class="container">
-            <div class="row justify-content-center justify-content-md-start">
-                <div class="col-md-12 col-sm-10">
-                    <div class="rts-section text-center">
-                        <h2 class="rts-section__title">Latest Article</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- blog start -->
-            <div class="row g-30 mb--60 justify-content-center justify-content-md-start">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="rts-blog__single">
-                        <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-1.png') }}"
-                                alt="blog post thumb">
-                        </a>
-                        <div class="rts-blog__single--meta">
-                            <div class="cat__date">
-                                <a href="#" class="cat">Web Hosting</a>
-                                <span class="date">19 Sep, 2025</span>
-                            </div>
-                            <a href="{{ route('blogDetails') }}" class="title">Attentive was born in 2015 help
-                                sales teams VPS hosting</a>
-                            <div class="rts-blog__single--author">
-                                <div class="author">
-                                    <img src="{{ asset('assets/images/author/author__one.png') }}" alt="">
-                                </div>
-                                <div class="author__content">
-                                    <a href="#">Mack jon</a>
-                                    <span>Developer & Web serenity </span>
+                <!-- HOSTING LATEST BLOG -->
+                {{-- <section class="rts-blog pt--120 pb--60">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start">
+                            <div class="col-md-12 col-sm-10">
+                                <div class="rts-section text-center">
+                                    <h2 class="rts-section__title">Latest Article</h2>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="rts-blog__single">
-                        <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-2.png') }}"
-                                alt="blog post thumb">
-                        </a>
-                        <div class="rts-blog__single--meta">
-                            <div class="cat__date">
-                                <a href="#" class="cat">Web Hosting</a>
-                                <span class="date">19 Sep, 2025</span>
-                            </div>
-                            <a href="{{ route('blogDetails') }}" class="title">Attentive was born in 2015 help
-                                sales teams VPS hosting</a>
-                            <div class="rts-blog__single--author">
-                                <div class="author">
-                                    <img src="{{ asset('assets/images/author/author__two.png') }}" alt="">
+                        <!-- blog start -->
+                        <div class="row g-30 mb--60 justify-content-center justify-content-md-start">
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="rts-blog__single">
+                                    <a href="{{ route('blogDetails') }}">
+                                        <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-1.png') }}"
+                                            alt="blog post thumb">
+                                    </a>
+                                    <div class="rts-blog__single--meta">
+                                        <div class="cat__date">
+                                            <a href="#" class="cat">Web Hosting</a>
+                                            <span class="date">19 Sep, 2025</span>
+                                        </div>
+                                        <a href="{{ route('blogDetails') }}" class="title">Attentive was born in 2015 help
+                                            sales teams VPS hosting</a>
+                                        <div class="rts-blog__single--author">
+                                            <div class="author">
+                                                <img src="{{ asset('assets/images/author/author__one.png') }}" alt="">
+                                            </div>
+                                            <div class="author__content">
+                                                <a href="#">Mack jon</a>
+                                                <span>Developer & Web serenity </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="author__content">
-                                    <a href="#">Ahmad Eamin</a>
-                                    <span>Developer</span>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="rts-blog__single">
+                                    <a href="{{ route('blogDetails') }}">
+                                        <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-2.png') }}"
+                                            alt="blog post thumb">
+                                    </a>
+                                    <div class="rts-blog__single--meta">
+                                        <div class="cat__date">
+                                            <a href="#" class="cat">Web Hosting</a>
+                                            <span class="date">19 Sep, 2025</span>
+                                        </div>
+                                        <a href="{{ route('blogDetails') }}" class="title">Attentive was born in 2015 help
+                                            sales teams VPS hosting</a>
+                                        <div class="rts-blog__single--author">
+                                            <div class="author">
+                                                <img src="{{ asset('assets/images/author/author__two.png') }}" alt="">
+                                            </div>
+                                            <div class="author__content">
+                                                <a href="#">Ahmad Eamin</a>
+                                                <span>Developer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="rts-blog__single">
+                                    <a href="{{ route('blogDetails') }}">
+                                        <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-3.png') }}"
+                                            alt="blog post thumb">
+                                    </a>
+                                    <div class="rts-blog__single--meta">
+                                        <div class="cat__date">
+                                            <a href="#" class="cat">Web Hosting</a>
+                                            <span class="date">19 Sep, 2025</span>
+                                        </div>
+                                        <a href="{{ route('blogDetails') }}" class="title">Attentive was born in 2015 help
+                                            sales teams VPS hosting</a>
+                                        <div class="rts-blog__single--author">
+                                            <div class="author">
+                                                <img src="{{ asset('assets/images/author/author__four.png') }}" alt="">
+                                            </div>
+                                            <div class="author__content">
+                                                <a href="#">Samira Khan</a>
+                                                <span>Digital Marketer</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- light cta -->
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="rts-blog__single">
-                        <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-3.png') }}"
-                                alt="blog post thumb">
-                        </a>
-                        <div class="rts-blog__single--meta">
-                            <div class="cat__date">
-                                <a href="#" class="cat">Web Hosting</a>
-                                <span class="date">19 Sep, 2025</span>
-                            </div>
-                            <a href="{{ route('blogDetails') }}" class="title">Attentive was born in 2015 help
-                                sales teams VPS hosting</a>
-                            <div class="rts-blog__single--author">
-                                <div class="author">
-                                    <img src="{{ asset('assets/images/author/author__four.png') }}" alt="">
-                                </div>
-                                <div class="author__content">
-                                    <a href="#">Samira Khan</a>
-                                    <span>Digital Marketer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- light cta -->
-        </div>
-    </section> --}}
-    <!-- HOSTING LATEST BLOG END -->
-    <!-- HOSTING LATEST BLOG END -->
+                </section> --}}
+                <!-- HOSTING LATEST BLOG END -->
+                <!-- HOSTING LATEST BLOG END -->
 
-    <!-- SHARED HOSTING FAQ -->
-    <section class="rts-hosting-faq">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="rts-section text-center">
-                        <h2 class="rts-section__title mb-0">Frequently asked questions</h2>
+                <!-- SHARED HOSTING FAQ -->
+                <section class="rts-hosting-faq">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="rts-section text-center">
+                                    <h2 class="rts-section__title mb-0">Frequently asked questions</h2>
+                                </div>
+                                <div class="rts-faq__accordion">
+                                    <div class="accordion accordion-flush" id="rts-accordion">
+                                        <div class="accordion-item active">
+                                            <div class="accordion-header" id="first">
+                                                <h4 class="accordion-button collapse show" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__one" aria-expanded="false"
+                                                    aria-controls="item__one">
+                                                    Why buy a domain name from TakeItCloudy?
+                                                </h4>
+                                            </div>
+                                            <div id="item__one" class="accordion-collapse collapse collapse show"
+                                                aria-labelledby="first" data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    Above all else, we strive to deliver outstanding customer experiences.
+                                                    When you buy
+                                                    a domain name from TakeItCloudy, we guarantee it will be handed over to
+                                                    you with
+                                                    superior standards of service and support. Our primary goal is to build
+                                                    a
+                                                    customer-focused atmosphere filled with the happiest customers in the
+                                                    galaxy. The
+                                                    TakeItCloudy guarantee is our mark of excellence.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="two">
+                                                <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__two" aria-expanded="false"
+                                                    aria-controls="item__two">
+                                                    How does domain registration work?
+                                                </h4>
+                                            </div>
+                                            <div id="item__two" class="accordion-collapse collapse" aria-labelledby="two"
+                                                data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    Think of the name you want to register. The answer is typically your
+                                                    company or
+                                                    website name. It is best to keep your domain name short and easy to
+                                                    understand. Say
+                                                    it out loud, and make sure it sounds great. Next, search to see if it is
+                                                    available.
+                                                    If the name you desire is taken with the .com top-level domain, there
+                                                    are hundreds
+                                                    of others available. Finally, add the top choices to your cart and
+                                                    complete the
+                                                    domain registration.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="three">
+                                                <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__three" aria-expanded="false"
+                                                    aria-controls="item__three">
+                                                    Which domain extensions do you offer?
+                                                </h4>
+                                            </div>
+                                            <div id="item__three" class="accordion-collapse collapse"
+                                                aria-labelledby="three" data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    The best ones! Give your website a true internet original like .com,
+                                                    .net, and .org.
+                                                    Each is globally recognized, and synonymous with trust and credibility —
+                                                    all great
+                                                    things to attach to your website and online brand. Watch this space for
+                                                    new
+                                                    additions to our domain portfolio.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="four">
+                                                <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__four" aria-expanded="false"
+                                                    aria-controls="item__four">
+                                                    Why do you have different offers for the same products?
+                                                </h4>
+                                            </div>
+                                            <div id="item__four" class="accordion-collapse collapse" aria-labelledby="four"
+                                                data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    Products might be the same, but every customer is different. That’s why
+                                                    we tailor
+                                                    our deals to suit as many people as possible. So you get exactly what
+                                                    you need, for
+                                                    less.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="five">
+                                                <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__five" aria-expanded="false"
+                                                    aria-controls="item__five">
+                                                    How do I choose and connect my website products?
+                                                </h4>
+                                            </div>
+                                            <div id="item__five" class="accordion-collapse collapse" aria-labelledby="five"
+                                                data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    It’s easy. Once you’ve decided on your website’s domain name and started
+                                                    the
+                                                    purchase process, you simply choose from specially selected products and
+                                                    bundles.
+                                                    These give you everything you need to get a website online, like your
+                                                    web hosting,
+                                                    for example. Once you have what you need, you can use our revolutionary
+                                                    Unbox
+                                                    process to connect your products together and choose your website
+                                                    content management
+                                                    system (CMS).
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="six">
+                                                <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__six" aria-expanded="false"
+                                                    aria-controls="item__six">
+                                                    How do I choose my website hosting?
+                                                </h4>
+                                            </div>
+                                            <div id="item__six" class="accordion-collapse collapse" aria-labelledby="six"
+                                                data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    Take your pick. All our web hosting plans are built to offer power and
+                                                    simplicity,
+                                                    and come with free email mailboxes and SSL certificates. But each is
+                                                    also designed
+                                                    to meet specific needs.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="seven">
+                                                <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                    data-bs-target="#item__seven" aria-expanded="false"
+                                                    aria-controls="item__seven">
+                                                    What are the details of the $6.19 .COM offer?
+                                                </h4>
+                                            </div>
+                                            <div id="item__seven" class="accordion-collapse collapse"
+                                                aria-labelledby="seven" data-bs-parent="#rts-accordion">
+                                                <div class="accordion-body">
+                                                    This promotion applies to new 1st year registrations for new customers.
+                                                    One purchase
+                                                    per household.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="rts-faq__accordion">
-                        <div class="accordion accordion-flush" id="rts-accordion">
-                            <div class="accordion-item active">
-                                <div class="accordion-header" id="first">
-                                    <h4 class="accordion-button collapse show" data-bs-toggle="collapse"
-                                        data-bs-target="#item__one" aria-expanded="false" aria-controls="item__one">
-                                        Why buy a domain name from TakeItCloudy?
-                                    </h4>
+                </section>
+                <!-- SHARED HOSTING FAQ END -->
+
+                <!-- Hosting Feature Start -->
+                <section class="rts-hosting-feature-area-2 section__padding">
+                    <div class="container">
+                        <div class="section-inner">
+                            <div class="row g-5">
+                                <div class="col-xl-4 col-lg-6">
+                                    <div class="feature-wrapper">
+                                        <div class="icon">
+                                            <img src="{{ asset('assets/images/feature/feature-08.svg') }}" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h4 class="title">Live Chat</h4>
+                                            <p class="desc">Our knowledgeable and friendly representatives are available
+                                                24/7</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div id="item__one" class="accordion-collapse collapse collapse show"
-                                    aria-labelledby="first" data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        Above all else, we strive to deliver outstanding customer experiences. When you buy
-                                        a domain name from TakeItCloudy, we guarantee it will be handed over to you with
-                                        superior standards of service and support. Our primary goal is to build a
-                                        customer-focused atmosphere filled with the happiest customers in the galaxy. The
-                                        TakeItCloudy guarantee is our mark of excellence.
+                                <div class="col-xl-4 col-lg-6">
+                                    <div class="feature-wrapper">
+                                        <div class="icon">
+                                            <img src="{{ asset('assets/images/feature/feature-09.svg') }}" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h4 class="title">Knowledge Base</h4>
+                                            <p class="desc">Access a wealth of information and resources with our
+                                                comprehensive</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6">
+                                    <div class="feature-wrapper">
+                                        <div class="icon">
+                                            <img src="{{ asset('assets/images/feature/feature-11.svg') }}" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <h4 class="title">Send Ticket</h4>
+                                            <p class="desc">Our ticketing system is designed to provide you with efficient
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header" id="two">
-                                    <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#item__two" aria-expanded="false" aria-controls="item__two">
-                                        How does domain registration work?
-                                    </h4>
-                                </div>
-                                <div id="item__two" class="accordion-collapse collapse" aria-labelledby="two"
-                                    data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        Think of the name you want to register. The answer is typically your company or
-                                        website name. It is best to keep your domain name short and easy to understand. Say
-                                        it out loud, and make sure it sounds great. Next, search to see if it is available.
-                                        If the name you desire is taken with the .com top-level domain, there are hundreds
-                                        of others available. Finally, add the top choices to your cart and complete the
-                                        domain registration.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header" id="three">
-                                    <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#item__three" aria-expanded="false" aria-controls="item__three">
-                                        Which domain extensions do you offer?
-                                    </h4>
-                                </div>
-                                <div id="item__three" class="accordion-collapse collapse" aria-labelledby="three"
-                                    data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        The best ones! Give your website a true internet original like .com, .net, and .org.
-                                        Each is globally recognized, and synonymous with trust and credibility — all great
-                                        things to attach to your website and online brand. Watch this space for new
-                                        additions to our domain portfolio.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header" id="four">
-                                    <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#item__four" aria-expanded="false" aria-controls="item__four">
-                                        Why do you have different offers for the same products?
-                                    </h4>
-                                </div>
-                                <div id="item__four" class="accordion-collapse collapse" aria-labelledby="four"
-                                    data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        Products might be the same, but every customer is different. That’s why we tailor
-                                        our deals to suit as many people as possible. So you get exactly what you need, for
-                                        less.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header" id="five">
-                                    <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#item__five" aria-expanded="false" aria-controls="item__five">
-                                        How do I choose and connect my website products?
-                                    </h4>
-                                </div>
-                                <div id="item__five" class="accordion-collapse collapse" aria-labelledby="five"
-                                    data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        It’s easy. Once you’ve decided on your website’s domain name and started the
-                                        purchase process, you simply choose from specially selected products and bundles.
-                                        These give you everything you need to get a website online, like your web hosting,
-                                        for example. Once you have what you need, you can use our revolutionary Unbox
-                                        process to connect your products together and choose your website content management
-                                        system (CMS).
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header" id="six">
-                                    <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#item__six" aria-expanded="false" aria-controls="item__six">
-                                        How do I choose my website hosting?
-                                    </h4>
-                                </div>
-                                <div id="item__six" class="accordion-collapse collapse" aria-labelledby="six"
-                                    data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        Take your pick. All our web hosting plans are built to offer power and simplicity,
-                                        and come with free email mailboxes and SSL certificates. But each is also designed
-                                        to meet specific needs.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header" id="seven">
-                                    <h4 class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#item__seven" aria-expanded="false" aria-controls="item__seven">
-                                        What are the details of the $6.19 .COM offer?
-                                    </h4>
-                                </div>
-                                <div id="item__seven" class="accordion-collapse collapse" aria-labelledby="seven"
-                                    data-bs-parent="#rts-accordion">
-                                    <div class="accordion-body">
-                                        This promotion applies to new 1st year registrations for new customers. One purchase
-                                        per household.
-                                    </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Hosting Feature End -->
+
+                <!-- NEWSLETTER AREA -->
+                <div class="rts-newsletter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="rts-newsletter__box">
+                                <div class="rts-newsletter__box--content">
+                                    <h3 class="title">Sign up for web hosting today!</h3>
+                                    <form action="#" class="newsletter__form">
+                                        <input type="email" name="email" placeholder="Enter your email" required>
+                                        <button type="submit" class="btn__two secondary__bg secondary__color">Subscribe
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- SHARED HOSTING FAQ END -->
-
-    <!-- Hosting Feature Start -->
-    <section class="rts-hosting-feature-area-2 section__padding">
-        <div class="container">
-            <div class="section-inner">
-                <div class="row g-5">
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="feature-wrapper">
-                            <div class="icon">
-                                <img src="{{ asset('assets/images/feature/feature-08.svg') }}" alt="">
-                            </div>
-                            <div class="text">
-                                <h4 class="title">Live Chat</h4>
-                                <p class="desc">Our knowledgeable and friendly representatives are available 24/7</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="feature-wrapper">
-                            <div class="icon">
-                                <img src="{{ asset('assets/images/feature/feature-09.svg') }}" alt="">
-                            </div>
-                            <div class="text">
-                                <h4 class="title">Knowledge Base</h4>
-                                <p class="desc">Access a wealth of information and resources with our comprehensive</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="feature-wrapper">
-                            <div class="icon">
-                                <img src="{{ asset('assets/images/feature/feature-11.svg') }}" alt="">
-                            </div>
-                            <div class="text">
-                                <h4 class="title">Send Ticket</h4>
-                                <p class="desc">Our ticketing system is designed to provide you with efficient</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hosting Feature End -->
-
-    <!-- NEWSLETTER AREA -->
-    <div class="rts-newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="rts-newsletter__box">
-                    <div class="rts-newsletter__box--content">
-                        <h3 class="title">Sign up for web hosting today!</h3>
-                        <form action="#" class="newsletter__form">
-                            <input type="email" name="email" placeholder="Enter your email" required>
-                            <button type="submit" class="btn__two secondary__bg secondary__color">Subscribe </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- NEWSLETTER AREA END -->
+                <!-- NEWSLETTER AREA END -->
 
 @endsection
