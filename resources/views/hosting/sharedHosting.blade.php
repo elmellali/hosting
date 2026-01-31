@@ -2215,16 +2215,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="rts-brand__slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/01.svg') }}" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- BRAND AREA END-->

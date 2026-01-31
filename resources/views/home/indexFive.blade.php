@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="hero__banner__wrapper banner-five d-flex flex-wrap flex-lg-nowrap gap-5 gap-lg-0 
-                                                        align-items-center justify-content-between">
+                                                            align-items-center justify-content-between">
 
                     <!-- banner content -->
                     <div class="hero__banner__content4">
@@ -61,16 +61,6 @@
                                 </div>
                                 <div class="review__company">
                                     954 reviews on <img src="{{ asset('assets/images/brand/trust-pilot.svg') }}" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="rts-brand__slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="rts-brand__slider--single">
-                                        <a href="#" aria-label="brand-link"><img
-                                                src="{{ asset('assets/images/brand/01.svg') }}" alt=""></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1012,7 +1002,8 @@
                                             <h2 class="section-title">We Provide Hosting Solution</h2>
                                             <p class="desc">Select your solution and we will help you narrow down our best
                                                 <br> high-speed
-                                                options to fit your needs.</p>
+                                                options to fit your needs.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

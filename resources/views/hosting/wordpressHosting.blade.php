@@ -34,24 +34,6 @@
     <!-- Breadcrumb END -->
 
     <!-- WordPress Community Start -->
-    <section class="rts-wordpress-section-community pt--120">
-        <div class="container">
-            <div class="section-inner">
-                <h4 class="section-title text-center">Highly rated by the WordPress community</h4>
-                <div class="brand-logo-area">
-                    <div class="brand-image">
-                        <img src="{{ asset('assets/images/brand/trust-pilot-2.svg') }}" alt="">
-                    </div>
-                    <div class="brand-image">
-                        <img src="{{ asset('assets/images/brand/google.svg') }}" alt="">
-                    </div>
-                    <div class="brand-image">
-                        <img src="{{ asset('assets/images/brand/spotify.svg') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- WordPress Community End -->
 
     <!-- HOSTING PLAN -->
