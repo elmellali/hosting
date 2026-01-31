@@ -3,7 +3,7 @@
 @php
     $title = 'Contact Us';
     $subTitle = 'Perfect for new entrepreneurs, this package offers essential tools
-                    and support to help you get started.';
+                        and support to help you get started.';
     $img = 'src="' . asset('assets/images/banner/breadcrumb-05.webp') . '" width="515" alt=""';
 @endphp
 
@@ -20,8 +20,8 @@
                                 <i class="fa-thin fa-map-location-dot"></i>
                             </div>
                             <div class="content w-220">
-                                <h5 class="info mb-0">123 Main Street,
-                                    New York, AV 10013</h5>
+                                <h5 class="info mb-0">3831 Montgomery Blvd NE APT 433,
+                                    Albuquerque, NM 87109</h5>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                             </div>
                             <div class="content w-220">
                                 <h5 class="info mb-0">
-                                    <a href="mailto:info@takeitcloudy.com">info@takeitcloudy.com</a> <br>
+                                    <a href="mailto:contact@takeitcloudy.com">contact@takeitcloudy.com</a> <br>
                                     <a href="mailto:support@takeitcloudy.com">support@takeitcloudy.com</a>
                                 </h5>
                             </div>
@@ -49,8 +49,7 @@
                             </div>
                             <div class="content w-220">
                                 <h5 class="info mb-0">
-                                    <a href="callto:11112542174">(555) 123-4567</a> <br>
-                                    <a href="callto:11112542174">(111) 125- 42174</a>
+                                    <a href="callto:+15053901602">+15053901602</a>
                                 </h5>
                             </div>
 

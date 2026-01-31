@@ -57,7 +57,14 @@
                                     <sup>$</sup> 3.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="3.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 6.99 /mo when you renew
@@ -200,7 +207,14 @@
                                     <sup>$</sup> 6.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Premium">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="6.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 6.99 /mo when you renew
@@ -343,7 +357,14 @@
                                     <sup>$</sup> 8.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Business">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="8.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 6.99 /mo when you renew
@@ -487,7 +508,14 @@
                                     <sup>$</sup> 11.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Cloud Startup">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="11.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 6.99 /mo when you renew
@@ -636,7 +664,14 @@
                                     <sup>$</sup> 36.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="36.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 79.99 /year when you renew
@@ -779,7 +814,14 @@
                                     <sup>$</sup> 79.56 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Premium">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="79.56">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 151.99 /year when you renew
@@ -922,7 +964,14 @@
                                     <sup>$</sup> 103.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Business">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="103.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 235.99 /mo when you renew
@@ -1065,7 +1114,14 @@
                                     <sup>$</sup> 139.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Cloud Startup">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="139.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 353.99 /mo when you renew
@@ -1213,7 +1269,14 @@
                                     <sup>$</sup> 72.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="72.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 158.99 /year when you renew
@@ -1356,7 +1419,14 @@
                                     <sup>$</sup> 158.56 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Premium">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="158.56">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 302.99 /year when you renew
@@ -1499,7 +1569,14 @@
                                     <sup>$</sup> 206.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Business">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="206.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 475.99 /mo when you renew
@@ -1642,7 +1719,14 @@
                                     <sup>$</sup> 278.63 <sub>/ month</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">add to cart</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Cloud Startup">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="278.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Add to Cart <i
+                                            class="fa-regular fa-cart-shopping"></i></button>
+            </form>
                                 </div>
                                 <p class="card-plan__renew-price">
                                     $ 705.99 /mo when you renew
@@ -1820,7 +1904,13 @@
                                     $3.29 <sub>/ mo</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="3.29">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -1880,7 +1970,13 @@
                                     $7.20 <sub>/ mo</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Pro SSD">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="7.20">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -1942,7 +2038,13 @@
                                     $17.63 <sub>/ mo</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="17.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2003,7 +2105,13 @@
                                     $11.20 <sub>/ mo</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="11.20">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2071,7 +2179,13 @@
                                     $5.29 <sub>/ yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="5.29">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2131,7 +2245,13 @@
                                     $12.20 <sub>/ mo</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Pro SSD">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="12.20">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2193,7 +2313,13 @@
                                     $32.63 <sub>/ yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="32.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2255,7 +2381,13 @@
                                     $20.40 <sub>/ yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="20.40">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2322,7 +2454,13 @@
                                     $12.29 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="12.29">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2382,7 +2520,13 @@
                                     $14.30 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Pro SSD">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="14.30">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2444,7 +2588,13 @@
                                     $34.63 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="34.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2506,7 +2656,13 @@
                                     $20.20 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="20.20">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2573,7 +2729,13 @@
                                     $8.29 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="8.29">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2633,7 +2795,13 @@
                                     $20.30 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Pro SSD">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="20.30">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2695,7 +2863,13 @@
                                     $50.63 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="50.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2757,7 +2931,13 @@
                                     $30.20 <sub>/ 3yr</sub>
                                 </h5>
                                 <div class="card-plan__cartbtn">
-                                    <a href="#">Get Started</a>
+                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic Plan">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="30.20">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                 </div>
                                 <div class="card-plan__feature">
                                     <ul class="card-plan__feature--list">
@@ -2852,7 +3032,13 @@
                                                     $7.20 <sub>/ mo</sub>
                                                 </span>
                                                 <div class="card-plan__cartbtn">
-                                                    <a href="#">Get Started</a>
+                                                    <form action="{{ route('cart.add') }}" method="POST">
+                @csrf
+                <input type="hidden" name="domain" value="Basic">
+                <input type="hidden" name="type" value="hosting">
+                <input type="hidden" name="price" value="3.63">
+                <button type="submit" class="btn-premium w-100 justify-content-center">Get Started</button>
+            </form>
                                                 </div>
                                             </div>
                                         </th>

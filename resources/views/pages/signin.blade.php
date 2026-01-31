@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @php
-    $header='false';
-    $footer='false';
-    $breadcrumb='false';
+    $header = 'false';
+    $footer = 'false';
+    $breadcrumb = 'false';
 @endphp
 
 @section('content')
@@ -37,7 +37,7 @@
             </form>
         </div>
         <div class="copyright-area">
-            <p>Copyright 2025. All Rights Reserved.</p>
+            <p>Copyright 2026 Takeitcloudy. All Rights Reserved.</p>
         </div>
     </div>
 

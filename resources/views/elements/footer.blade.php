@@ -5,19 +5,19 @@
             <div class="col-lg-4 col-md-6 col-sm-6 rts-footer__widget--column">
                 <div class="rts-footer__widget footer__widget w-280">
                     <a href="{{ route('index') }}" aria-label="main page link" class="footer__logo">
-                        <img src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}" alt="TakeItCloudy"
+                        <img src="{{ asset('assets/images/logo/elitehost-logo.png') }}" alt="Elitehost"
                             style="max-height: 50px;">
                     </a>
-                    <p class="brand-desc">1811 Silverside Rd, Wilmington <br> DE 19810, USA</p>
+                    <p class="brand-desc">3831 Montgomery Blvd NE APT 433 <br> Albuquerque, NM 87109</p>
                     <div class="contact-wrapper">
                         <ul>
                             <li>
                                 <div class="icon"><i class="fa-regular fa-phone"></i></div>
-                                <a href="call-to:8060008899">+806 (000) 88 99</a>
+                                <a href="call-to:+15053901602">+15053901602</a>
                             </li>
                             <li>
                                 <div class="icon"><i class="fa-sharp fa-regular fa-envelope"></i></div>
-                                <a href="mail-to:info@takeitcloudy.com">info@takeitcloudy.com</a>
+                                <a href="mailto:contact@takeitcloudy.com">contact@takeitcloudy.com</a>
                             </li>
                         </ul>
                     </div>
@@ -134,8 +134,12 @@
         <div class="container">
             <div class="row">
                 <div class="footer__copy__wrapper justify-content-center text-center">
-                    <p>&copy; 2004-2025 Premium Web Hosting, Cloud, VPS, AI Website Builder & Domain Registration
-                        Services.</p>
+                    <p>&copy; 2026 Takeitcloudy. All Rights Reserved.</p>
+                    <div class="footer__links mt--10">
+                        <a href="{{ route('privacy') }}" class="mx-3">Privacy Policy</a>
+                        <a href="{{ route('tos') }}" class="mx-3">Terms and Conditions</a>
+                        <a href="{{ route('refund') }}" class="mx-3">Refund Policy</a>
+                    </div>
                 </div>
             </div>
         </div>

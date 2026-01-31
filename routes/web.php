@@ -29,6 +29,8 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/home-one', 'index')->name('indexOne'); // Renamed original index
     // Login moved to AuthController
     Route::get('tos', 'tos')->name('tos');
+    Route::get('privacy', 'privacy')->name('privacy');
+    Route::get('refund', 'refund')->name('refund');
 });
 
 //  Home

@@ -34,4 +34,5 @@
     <link rel="preload stylesheet" href="{{ asset('assets/css/plugins/fontawesome.min.css') }}" as="style">
     <!-- Custom css -->
     <link rel="preload stylesheet" href="{{ asset('assets/css/style.css') }}" as="style">
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-checkout.css') }}?v={{ time() }}">
 </head>

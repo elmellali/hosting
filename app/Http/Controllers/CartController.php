@@ -22,7 +22,6 @@ class CartController extends Controller
     {
         $request->validate([
             'domain' => 'required|string',
-            'price' => 'nullable|numeric', // We can add price calculation later
             'type' => 'required|string', // e.g., 'domain', 'hosting'
         ]);
 
@@ -30,10 +29,20 @@ class CartController extends Controller
 
         $item_id = md5($request->domain . $request->type); // Simple unique ID
 
+        // Calculate price based on TLD
+        $price = 9.99; // Default fallback
+        if ($request->type === 'domain') {
+            $parts = explode('.', $request->domain);
+            $tld = end($parts);
+            $price = config("domain_prices.{$tld}", 9.99); // default to 9.99 if TLD not found
+        } elseif ($request->has('price')) {
+            $price = $request->price; // Allow passed price for non-domains (e.g. hosting)
+        }
+
         $cart[$item_id] = [
             "name" => $request->domain,
             "type" => $request->type,
-            "price" => $request->price ?? 9.99, // Default price if not sent
+            "price" => $price,
             "quantity" => 1
         ];
 

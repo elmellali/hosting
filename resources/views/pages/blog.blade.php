@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @php
-        $title='Blog EliteHost';
-        $subTitle='Perfect for new entrepreneurs, this package offers essential tools and support to help you get started.';
-        $img='src="' . asset('assets/images/banner/breadcrumb-05.webp') . '" width="515" alt=""' ;
+    $title = 'Blog EliteHost';
+    $subTitle = 'Perfect for new entrepreneurs, this package offers essential tools and support to help you get started.';
+    $img = 'src="' . asset('assets/images/banner/breadcrumb-05.webp') . '" width="515" alt=""';
 @endphp
 
 @section('content')
@@ -15,7 +15,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-1.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-1.png') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -39,7 +40,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-2.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-2.png') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -63,7 +65,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-3.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-3.png') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -87,7 +90,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-4.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-4.webp') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -111,7 +115,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-5.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-5.webp') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -135,7 +140,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-6.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-6.webp') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -159,7 +165,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-7.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-7.webp') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -183,7 +190,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-8.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-8.webp') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">
@@ -207,7 +215,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-10">
                     <div class="rts-blog__single">
                         <a href="{{ route('blogDetails') }}">
-                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-9.webp') }}" alt="blog post thumb">
+                            <img class="blog__thumb" src="{{ asset('assets/images/blog/blog-9.webp') }}"
+                                alt="blog post thumb">
                         </a>
                         <div class="rts-blog__single--meta">
                             <div class="cat__date">

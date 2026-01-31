@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @php
-    $title='Blog EliteHost';
-    $subTitle='Perfect for new entrepreneurs, this package offers essential tools and support to help you get started.';
-    $img='src="' . asset('assets/images/banner/breadcrumb-05.webp') . '" width="515" alt=""' ;
+    $title = 'Blog EliteHost';
+    $subTitle = 'Perfect for new entrepreneurs, this package offers essential tools and support to help you get started.';
+    $img = 'src="' . asset('assets/images/banner/breadcrumb-05.webp') . '" width="515" alt=""';
 @endphp
 
 @section('content')
@@ -17,11 +17,13 @@
                         <!-- single blog post -->
                         <div class="single-post">
                             <a href="#">
-                                <img src="{{ asset('assets/images/blog/blog-list-1.webp') }}" width="850" height="440" alt="">
+                                <img src="{{ asset('assets/images/author/author__one.png') }}" width="850" height="440"
+                                    alt="">
                             </a>
                             <div class="single-post__meta">
                                 <div class="author__date__cat">
-                                    <div class="author"><i class="fa-regular fa-circle-user"></i> By <a href="#">Emran Hossen</a></div>
+                                    <div class="author"><i class="fa-regular fa-circle-user"></i> By <a href="#">Emran
+                                            Hossen</a></div>
                                     <span class="date"><i class="fa-regular fa-clock"></i> 15 Jan, 2025</span>
                                     <div class="cat"><i class="fa-regular fa-tags"></i> <a href="#">Web Hosting</a></div>
                                 </div>
@@ -29,20 +31,26 @@
                                     Face-off (2025 Comparison)
                                 </a>
                                 <p class="excerpt">
-                                    According to a newly adopted definition of cities proposed by the European Commission and now shared by a number of major international organizations such as the OECD, the World Bank and UN-Habitat, an estimated 75% of the world's population live in urbanized areas...
+                                    According to a newly adopted definition of cities proposed by the European Commission
+                                    and now shared by a number of major international organizations such as the OECD, the
+                                    World Bank and UN-Habitat, an estimated 75% of the world's population live in urbanized
+                                    areas...
                                 </p>
-                                <a href="{{ route('blogDetails') }}" class="readmore__btn rts-btn rts-btn-primary">read more</a>
+                                <a href="{{ route('blogDetails') }}" class="readmore__btn rts-btn rts-btn-primary">read
+                                    more</a>
                             </div>
                         </div>
                         <!-- single blog post end -->
                         <!-- single blog post -->
                         <div class="single-post">
                             <a href="#">
-                                <img src="{{ asset('assets/images/blog/blog-list-2.webp') }}" width="850" height="440" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-list-2.webp') }}" width="850" height="440"
+                                    alt="">
                             </a>
                             <div class="single-post__meta">
                                 <div class="author__date__cat">
-                                    <div class="author"><i class="fa-regular fa-circle-user"></i> By <a href="#">Emran Hossen</a></div>
+                                    <div class="author"><i class="fa-regular fa-circle-user"></i> By <a href="#">Emran
+                                            Hossen</a></div>
                                     <span class="date"><i class="fa-regular fa-clock"></i> 15 Jan, 2025</span>
                                     <div class="cat"><i class="fa-regular fa-tags"></i> <a href="#">Web Hosting</a></div>
                                 </div>
@@ -50,20 +58,26 @@
                                     Categories to WooCommerce
                                 </a>
                                 <p class="excerpt">
-                                    According to a newly adopted definition of cities proposed by the European Commission and now shared by a number of major international organizations such as the OECD, the World Bank and UN-Habitat, an estimated 75% of the world's population live in urbanized areas...
+                                    According to a newly adopted definition of cities proposed by the European Commission
+                                    and now shared by a number of major international organizations such as the OECD, the
+                                    World Bank and UN-Habitat, an estimated 75% of the world's population live in urbanized
+                                    areas...
                                 </p>
-                                <a href="{{ route('blogDetails') }}" class="readmore__btn rts-btn rts-btn-primary">read more</a>
+                                <a href="{{ route('blogDetails') }}" class="readmore__btn rts-btn rts-btn-primary">read
+                                    more</a>
                             </div>
                         </div>
                         <!-- single blog post end -->
                         <!-- single blog post -->
                         <div class="single-post">
                             <a href="#">
-                                <img src="{{ asset('assets/images/blog/blog-list-3.webp') }}" width="850" height="440" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-list-3.webp') }}" width="850" height="440"
+                                    alt="">
                             </a>
                             <div class="single-post__meta">
                                 <div class="author__date__cat">
-                                    <div class="author"><i class="fa-regular fa-circle-user"></i> By <a href="#">Emran Hossen</a></div>
+                                    <div class="author"><i class="fa-regular fa-circle-user"></i> By <a href="#">Emran
+                                            Hossen</a></div>
                                     <span class="date"><i class="fa-regular fa-clock"></i> 15 Jan, 2025</span>
                                     <div class="cat"><i class="fa-regular fa-tags"></i> <a href="#">Web Hosting</a></div>
                                 </div>
@@ -71,9 +85,13 @@
                                     for WordPress
                                 </a>
                                 <p class="excerpt">
-                                    According to a newly adopted definition of cities proposed by the European Commission and now shared by a number of major international organizations such as the OECD, the World Bank and UN-Habitat, an estimated 75% of the world's population live in urbanized areas...
+                                    According to a newly adopted definition of cities proposed by the European Commission
+                                    and now shared by a number of major international organizations such as the OECD, the
+                                    World Bank and UN-Habitat, an estimated 75% of the world's population live in urbanized
+                                    areas...
                                 </p>
-                                <a href="{{ route('blogDetails') }}" class="readmore__btn rts-btn rts-btn-primary">read more</a>
+                                <a href="{{ route('blogDetails') }}" class="readmore__btn rts-btn rts-btn-primary">read
+                                    more</a>
                             </div>
                         </div>
                         <!-- single blog post end -->
@@ -112,7 +130,8 @@
                                     <a href="#">Interior design <span><i class="fa-regular fa-arrow-right"></i></span></a>
                                 </li>
                                 <li class="single-cat">
-                                    <a href="#">Remodeling Services <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                                    <a href="#">Remodeling Services <span><i
+                                                class="fa-regular fa-arrow-right"></i></span></a>
                                 </li>
                                 <li class="single-cat">
                                     <a href="#">Urban Planning <span><i class="fa-regular fa-arrow-right"></i></span></a>
@@ -132,7 +151,8 @@
                             <div class="recent-posts">
                                 <div class="single-post">
                                     <div class="thumb">
-                                        <img src="{{ asset('assets/images/blog/blog-recent-1.webp') }}" alt="" height="85" width="85">
+                                        <img src="{{ asset('assets/images/blog/blog-recent-1.webp') }}" alt="" height="85"
+                                            width="85">
                                     </div>
                                     <div class="meta">
                                         <span class="published"><i class="fa-regular fa-clock"></i> 15 Jan, 2025</span>
@@ -141,7 +161,8 @@
                                 </div>
                                 <div class="single-post">
                                     <div class="thumb">
-                                        <img src="{{ asset('assets/images/blog/blog-recent-2.webp') }}" alt="" height="85" width="85">
+                                        <img src="{{ asset('assets/images/blog/blog-recent-2.webp') }}" alt="" height="85"
+                                            width="85">
                                     </div>
                                     <div class="meta">
                                         <span class="published"><i class="fa-regular fa-clock"></i> 15 Jan, 2025</span>
@@ -150,7 +171,8 @@
                                 </div>
                                 <div class="single-post">
                                     <div class="thumb">
-                                        <img src="{{ asset('assets/images/blog/blog-recent-3.webp') }}" alt="" height="85" width="85">
+                                        <img src="{{ asset('assets/images/blog/blog-recent-3.webp') }}" alt="" height="85"
+                                            width="85">
                                     </div>
                                     <div class="meta">
                                         <span class="published"><i class="fa-regular fa-clock"></i> 15 Jan, 2025</span>
@@ -167,22 +189,28 @@
                             <h4 class="widget-title">Gallery Post</h4>
                             <div class="gallery-posts">
                                 <a href="{{ route('blogDetails') }}" class="thumb">
-                                    <img src="{{ asset('assets/images/blog/gallery-post-1.webp') }}" height="95" width="95" alt="">
+                                    <img src="{{ asset('assets/images/blog/gallery-post-1.webp') }}" height="95" width="95"
+                                        alt="">
                                 </a>
                                 <a href="{{ route('blogDetails') }}" class="thumb">
-                                    <img src="{{ asset('assets/images/blog/gallery-post-2.webp') }}" height="95" width="95" alt="">
+                                    <img src="{{ asset('assets/images/blog/gallery-post-2.webp') }}" height="95" width="95"
+                                        alt="">
                                 </a>
                                 <a href="{{ route('blogDetails') }}" class="thumb">
-                                    <img src="{{ asset('assets/images/blog/gallery-post-3.webp') }}" height="95" width="95" alt="">
+                                    <img src="{{ asset('assets/images/blog/gallery-post-3.webp') }}" height="95" width="95"
+                                        alt="">
                                 </a>
                                 <a href="{{ route('blogDetails') }}" class="thumb">
-                                    <img src="{{ asset('assets/images/blog/gallery-post-4.webp') }}" height="95" width="95" alt="">
+                                    <img src="{{ asset('assets/images/blog/gallery-post-4.webp') }}" height="95" width="95"
+                                        alt="">
                                 </a>
                                 <a href="{{ route('blogDetails') }}" class="thumb">
-                                    <img src="{{ asset('assets/images/blog/gallery-post-5.webp') }}" height="95" width="95" alt="">
+                                    <img src="{{ asset('assets/images/blog/gallery-post-5.webp') }}" height="95" width="95"
+                                        alt="">
                                 </a>
                                 <a href="{{ route('blogDetails') }}" class="thumb">
-                                    <img src="{{ asset('assets/images/blog/gallery-post-6.webp') }}" height="95" width="95" alt="">
+                                    <img src="{{ asset('assets/images/blog/gallery-post-6.webp') }}" height="95" width="95"
+                                        alt="">
                                 </a>
                             </div>
                         </div>

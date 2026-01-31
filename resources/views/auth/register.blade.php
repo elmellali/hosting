@@ -11,8 +11,8 @@
     <div class="rts-sign-up-section">
         <div class="section-inner">
             <div class="logo-area">
-                <a href="{{ route('index') }}"><img src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}"
-                        alt="TakeItCloudy" style="max-height: 50px;"></a>
+                <a href="{{ route('index') }}"><img src="{{ asset('assets/images/logo/elitehost-logo.png') }}"
+                        alt="Elitehost" style="max-height: 50px;"></a>
             </div>
             <form action="{{ route('register.post') }}" method="POST">
                 @csrf
@@ -54,7 +54,7 @@
             </form>
         </div>
         <div class="copyright-area">
-            <p>Copyright 2025. All Rights Reserved.</p>
+            <p>Copyright 2026 Takeitcloudy. All Rights Reserved.</p>
         </div>
     </div>
 

@@ -59,13 +59,22 @@ class PagesController extends Controller
                 } else {
                     $available = false;
                 }
+
+                // Calculate Price based on TLD
+                $parts = explode('.', $fullDomain);
+                $extension = end($parts);
+                $price = config("domain_prices.{$extension}", 9.99);
+
             } catch (\Exception $e) {
                 // Handle connection errors or invalid domains
                 $available = false;
+                $price = 9.99;
             }
+        } else {
+            $price = 9.99;
         }
 
-        return view('pages/domainChecker', ['available' => $available]);
+        return view('pages/domainChecker', ['available' => $available, 'domainPrice' => $price]);
     }
 
     public function knowledgebase()

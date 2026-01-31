@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    @include('elements.head')
+@include('elements.head')
 
 <body>
 
@@ -38,6 +38,9 @@
     @include('elements.preloader')
     <!-- THEME PRELOADER END -->
 
+
+
+
     <!-- BACK TO TOP AREA START -->
     @include('elements.backtotop')
     <!-- BACK TO TOP AREA END -->
@@ -45,4 +48,5 @@
     @include('elements.script')
 
 </body>
+
 </html>

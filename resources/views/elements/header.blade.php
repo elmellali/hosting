@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="rts-ht__wrapper">
                     <div class="rts-ht__email">
-                        <a href="mailto:info@takeitcloudy.com"><img src="{{ asset('assets/images/icon/email.svg') }}"
+                        <a href="mailto:contact@takeitcloudy.com"><img src="{{ asset('assets/images/icon/email.svg') }}"
                                 alt="" class="icon">contact@takeitcloudy.com</a>
                     </div>
                     <div class="rts-ht__promo">
@@ -14,8 +14,8 @@
                     </div>
                     <div class="rts-ht__links">
                         <div class="live-chat-has-dropdown">
-                            <a href="#" class="live__chat"><img src="{{ asset('assets/images/icon/forum.svg') }}" alt=""
-                                    class="icon">Live Chat</a>
+                            <a href="{{ route('cart.index') }}" class="live__chat"><i
+                                    class="fa-regular fa-cart-shopping icon"></i>Cart</a>
                         </div>
                         <div class="login-btn-has-dropdown">
                             @auth
@@ -40,10 +40,10 @@
                     <!-- FOR LOGO -->
                     <div class="rts-header__logo">
                         <a href="{{ route('index') }}" class="site-logo">
-                            <img class="logo-white" src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}"
-                                alt="TakeItCloudy" style="max-height: 50px;">
-                            <img class="logo-dark" src="{{ asset('assets/images/logo/takeitcloudy-logo.png') }}"
-                                alt="TakeItCloudy" style="max-height: 50px;">
+                            <img class="logo-white" src="{{ asset('assets/images/logo/elitehost-logo.png') }}"
+                                alt="Elitehost" style="max-height: 50px;">
+                            <img class="logo-dark" src="{{ asset('assets/images/logo/elitehost-logo.png') }}"
+                                alt="Elitehost" style="max-height: 50px;">
                         </a>
                     </div>
                     <!-- FOR NAVIGATION MENU -->

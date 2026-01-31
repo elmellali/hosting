@@ -1,0 +1,223 @@
+/* Modern Checkout & Cart Styling */
+
+:root {
+    /* Core Theme Colors (Indigo/Purple) */
+    --primary-color: #6366f1;
+    --secondary-color: #a855f7;
+
+    /* Local Vars */
+    --primary-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+    --card-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    --input-bg: #f8fafc;
+    --input-border: #e2e8f0;
+    --text-dark: #1e293b;
+    --text-muted: #64748b;
+
+    /* GLOBAL OVERRIDES for style.css */
+    --color-primary: #6366f1;
+    --color-secondary: #0f172a;
+    /* Darker slate */
+
+    /* Gradient Overrides - Replacing Blues with Theme Gradient */
+    --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --card-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --choose-card: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --testimonial-card: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --banner-one-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --pricing-single-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --cta-two-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --banner-most-used-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --testimonial-two-bg: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --banner-four-gradient: linear-gradient(90deg, #6366f1 26.56%, rgba(168, 85, 247, 0.00) 83.83%);
+}
+
+/* Global Selection Stylings */
+::selection {
+    background: #6366f1;
+    color: white;
+}
+
+/* Global Button Overrides */
+.rts-btn {
+    background: var(--primary-gradient) !important;
+    color: white !important;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.rts-btn:hover {
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.45);
+    transform: translateY(-2px);
+}
+
+/* Fix for specific button text appearing transparent/white on white */
+.rts-btn.btn-white {
+    background: white !important;
+    color: var(--primary-color) !important;
+}
+
+/* Premium Buttons */
+.btn-premium {
+    background: var(--primary-gradient) !important;
+    color: white !important;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--primary-shadow);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-premium:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.45);
+    color: white !important;
+}
+
+.btn-premium:active {
+    transform: translateY(0);
+}
+
+/* Specific Override for Card Buttons */
+.card-plan__cartbtn .btn-premium,
+.pricing-btn.rts-btn,
+a.btn-premium {
+    background: var(--primary-gradient) !important;
+    color: white !important;
+    opacity: 1;
+    visibility: visible;
+}
+
+.pricing-btn.rts-btn:hover {
+    color: white !important;
+}
+
+/* Modern Layout Cards */
+.checkout-box,
+.order-summary-box,
+.checkout-billing-details {
+    background: white;
+    padding: 2rem !important;
+    border-radius: 20px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 2rem;
+}
+
+.checkout-billing-details h3.title,
+.order-summary-box h3.title,
+.checkout-box h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+/* Modern Inputs */
+.modern-input label {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.modern-input input,
+.modern-input select,
+.modern-input textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 1px solid var(--input-border);
+    background-color: var(--input-bg);
+    transition: all 0.2s ease;
+    font-size: 1.05rem;
+    color: var(--text-dark);
+}
+
+.modern-input input:focus,
+.modern-input select:focus {
+    outline: none;
+    background-color: white;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+}
+
+/* Table Enhancements */
+.cart-table-area table,
+.order-products table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.cart-table-area th,
+.order-products th {
+    background: #f8fafc;
+    color: var(--text-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    padding: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.cart-table-area td,
+.order-products td {
+    border-bottom: 1px solid #f1f5f9;
+    padding: 1.2rem 1rem;
+    vertical-align: middle;
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.order-products tfoot tr:last-child td {
+    color: var(--text-dark);
+    font-size: 1.2rem;
+}
+
+/* Payment Method Styles */
+.payment-method {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+}
+
+.custom-radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.custom-radio input[type="radio"] {
+    accent-color: #6366f1;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.custom-radio label {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+/* Clean up Bootstrap overrides */
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
