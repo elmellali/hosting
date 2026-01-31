@@ -200,7 +200,7 @@
                                     </div>
                                     <div class="author__meta">
                                         <div class="author__meta--image">
-                                            <img src="{{ asset('assets/images/author/author__two.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/author/jamie_knop.png') }}" alt="">
                                         </div>
                                         <div class="author__meta--details">
                                             <a href="#">Jamie Knop</a>
@@ -241,7 +241,7 @@
                                         <img src="{{ asset('assets/images/testimonials/quote.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <p>I've been using their web hosting services for over a year now, and I happier.
+                                        <p>I've been using their web hosting services for over a year now, and I'm happier.
                                             The uptime is fantastic, and the customer support team is always quick.</p>
                                     </div>
                                     <div class="author__meta">
@@ -263,12 +263,12 @@
                                         <img src="{{ asset('assets/images/testimonials/quote.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <p>I've been using their web hosting services for over a year now, and I happier.
+                                        <p>I've been using their web hosting services for over a year now, and I'm happier.
                                             The uptime is fantastic, and the customer support team is always quick.</p>
                                     </div>
                                     <div class="author__meta">
                                         <div class="author__meta--image">
-                                            <img src="{{ asset('assets/images/testimonials/author.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/author/jamie_knop.png') }}" alt="">
                                         </div>
                                         <div class="author__meta--details">
                                             <a href="#">Jamie Knop</a>
