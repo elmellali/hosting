@@ -41,8 +41,6 @@ Route::prefix('home')->group(function () {
         Route::get('/index-six', 'indexSix')->name('indexSix');
         Route::get('/index-three', 'indexThree')->name('indexThree');
         Route::get('/index-two', 'indexTwo')->name('indexTwo');
-        Route::get('/tos', 'tos')->name('tos');
-        Route::get('/index-two', 'indexTwo')->name('indexTwo');
     });
 });
 
