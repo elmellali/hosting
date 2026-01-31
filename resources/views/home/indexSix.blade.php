@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="hero__banner__wrapper d-flex flex-wrap flex-lg-nowrap gap-5 gap-lg-0 
-                                                    align-items-center justify-content-between px-5 px-lg-0">
+                                                        align-items-center justify-content-between px-5 px-lg-0">
 
                     <!-- banner content -->
                     <div class="hero__banner__content content-5">
@@ -541,7 +541,7 @@
                                     </div>
                                     <div class="author__meta">
                                         <div class="author__meta--image">
-                                            <img src="{{ asset('assets/images/testimonials/author.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/author/jamie_knop.png') }}" alt="">
                                         </div>
                                         <div class="author__meta--details">
                                             <a href="#">Jamie Knop</a>
@@ -565,11 +565,11 @@
                                     </div>
                                     <div class="author__meta">
                                         <div class="author__meta--image">
-                                            <img src="{{ asset('assets/images/testimonials/author-2.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/author/jahed_khan.png') }}" alt="">
                                         </div>
                                         <div class="author__meta--details">
                                             <a href="#">Jahed Khan</a>
-                                            <span>Business Owner</span>
+                                            <span>Startup Founder</span>
                                         </div>
                                     </div>
                                 </div>
@@ -587,11 +587,11 @@
                                     </div>
                                     <div class="author__meta">
                                         <div class="author__meta--image">
-                                            <img src="{{ asset('assets/images/testimonials/author-3.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/author/samira_khan.png') }}" alt="">
                                         </div>
                                         <div class="author__meta--details">
                                             <a href="#">Samira Khan</a>
-                                            <span>Digital Marketer</span>
+                                            <span>Creative Director</span>
                                         </div>
                                     </div>
                                 </div>
@@ -604,16 +604,17 @@
                                         <img src="{{ asset('assets/images/testimonials/quote.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <p>I've been using their web hosting services for over a year now, and I happier.
-                                            The uptime is fantastic, and the customer support team is always quick.</p>
+                                        <p>The transition to TakeItCloudy was incredibly smooth. Their support team helped
+                                            with the database migration, and we saw an immediate improvement in TTFB.
+                                            High-performance hosting at its best!</p>
                                     </div>
                                     <div class="author__meta">
                                         <div class="author__meta--image">
-                                            <img src="{{ asset('assets/images/author/author__two.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/author/alex_rivera.png') }}" alt="">
                                         </div>
                                         <div class="author__meta--details">
-                                            <a href="#">Jamie Knop</a>
-                                            <span>Business Owner</span>
+                                            <a href="#">Alex Rivera</a>
+                                            <span>Lead Developer</span>
                                         </div>
                                     </div>
                                 </div>

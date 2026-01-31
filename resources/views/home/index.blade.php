@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="hero__banner__wrapper d-flex flex-wrap flex-lg-nowrap gap-5 gap-lg-0 
-                                        align-items-center justify-content-between px-lg-0">
+                                            align-items-center justify-content-between px-lg-0">
 
                     <!-- banner content -->
                     <div class="hero__banner__content">
@@ -1766,12 +1766,13 @@
                                         <img src="{{ asset('assets/images/testimonials/quote.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <p>Since switching to this hosting provider, my website's load times significantly
-                                            decreased. My visitors are having a much smoother experience. Highly recommend!
-                                            The features are pretty standard compared to other hosting services I’ve used.
-                                            It does the job but doesn't stand out in any particular area.</p>
+                                        <p>Reliable, fast, and secure. Everything you need from a modern hosting provider.
+                                            Their support team is incredibly knowledgeable and always ready to help.</p>
                                     </div>
                                     <div class="author__meta">
+                                        <div class="author__meta--image">
+                                            <img src="{{ asset('assets/images/author/jamie_knop.png') }}" alt="">
+                                        </div>
                                         <div class="author__meta--details">
                                             <a href="#">Jamie Knop</a>
                                             <span>Business Owner</span>
@@ -1787,15 +1788,16 @@
                                         <img src="{{ asset('assets/images/testimonials/quote.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <p>Since switching to this hosting provider, my website's load times significantly
-                                            decreased. My visitors are having a much smoother experience. Highly recommend!
-                                            The features are pretty standard compared to other hosting services I’ve used.
-                                            It does the job but doesn't stand out in any particular area.</p>
+                                        <p>The migration was effortless. We moved our entire infrastructure over a weekend
+                                            with zero downtime. The speed improvement for our tech stack is remarkable.</p>
                                     </div>
                                     <div class="author__meta">
+                                        <div class="author__meta--image">
+                                            <img src="{{ asset('assets/images/author/alex_rivera.png') }}" alt="">
+                                        </div>
                                         <div class="author__meta--details">
-                                            <a href="#">Jamie Knop</a>
-                                            <span>Business Owner</span>
+                                            <a href="#">Alex Rivera</a>
+                                            <span>Lead Developer</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1808,15 +1810,16 @@
                                         <img src="{{ asset('assets/images/testimonials/quote.svg') }}" alt="">
                                     </div>
                                     <div class="content">
-                                        <p>Since switching to this hosting provider, my website's load times significantly
-                                            decreased. My visitors are having a much smoother experience. Highly recommend!
-                                            The features are pretty standard compared to other hosting services I’ve used.
-                                            It does the job but doesn't stand out in any particular area.</p>
+                                        <p>My online store has never been faster. My customers noticed the difference
+                                            immediately, and our conversion rates have improved significantly.</p>
                                     </div>
                                     <div class="author__meta">
+                                        <div class="author__meta--image">
+                                            <img src="{{ asset('assets/images/author/sarah_jenkins.png') }}" alt="">
+                                        </div>
                                         <div class="author__meta--details">
-                                            <a href="#">Jamie Knop</a>
-                                            <span>Business Owner</span>
+                                            <a href="#">Sarah Jenkins</a>
+                                            <span>E-commerce Owner</span>
                                         </div>
                                     </div>
                                 </div>

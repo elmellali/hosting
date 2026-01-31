@@ -50,12 +50,10 @@
                 <li class="has-droupdown">
                     <a href="#" class="main">Feature</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" target="_self" href="#">WHMCS Template</a></li>
                         <li><a class="mobile-menu-link" target="_self" href="{{ route('sharedHosting') }}">Shared
                                 Hosting</a></li>
                         <li><a class="mobile-menu-link" target="_self" href="{{ route('vpsHosting') }}">VPS Hosting</a>
                         </li>
-                        <li><a class="mobile-menu-link" target="_self" href="#">Announcment</a></li>
                     </ul>
                 </li>
                 <li class="has-droupdown">

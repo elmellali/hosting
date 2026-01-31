@@ -77,7 +77,8 @@
                             <li><a class="mobile-menu-link" href="{{ route('pricing') }}">Pricing</a></li>
                             <li><a class="mobile-menu-link" href="{{ route('signin') }}">Sign In</a></li>
                             <li><a class="mobile-menu-link" href="{{ route('knowledgebase') }}">Knowledgebase</a></li>
-                            {{-- <li><a class="mobile-menu-link" href="{{ route('blogDetails') }}">Blog Details</a></li> --}}
+                            {{-- <li><a class="mobile-menu-link" href="{{ route('blogDetails') }}">Blog Details</a></li>
+                            --}}
                             <li><a class="mobile-menu-link" href="{{ route('domainChecker') }}">Domain Checker</a></li>
                             <li><a class="mobile-menu-link" href="{{ route('contact') }}">Contact</a></li>
                         </ul>
@@ -98,12 +99,10 @@
                     <li class="has-droupdown">
                         <a href="#" class="main">Feature</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" target="_self" href="#">WHMCS Template</a></li>
                             <li><a class="mobile-menu-link" target="_self" href="{{ route('sharedHosting') }}">Shared
                                     Hosting</a></li>
                             <li><a class="mobile-menu-link" target="_self" href="{{ route('vpsHosting') }}">VPS Hosting</a>
                             </li>
-                            <li><a class="mobile-menu-link" target="_self" href="#">Announcment</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown">

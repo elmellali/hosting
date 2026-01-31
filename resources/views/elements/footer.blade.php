@@ -86,10 +86,6 @@
                         <div class="rts-footer__widget--menu ">
                             <ul>
                                 <li><a href="{{ route('domainChecker') }}">Domain Checker</a></li>
-                                <li><a href="#">WHMCS Template</a>
-                                </li>
-                                <li><a href="#">Announcement</a>
-                                </li>
                                 <li><a href="{{ route('sharedHosting') }}">Shared
                                         Hosting</a></li>
                                 <li><a href="{{ route('vpsHosting') }}">VPS
